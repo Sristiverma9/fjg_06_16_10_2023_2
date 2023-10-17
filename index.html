@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <h4>Add Vendor</h4> <hr>
+        <h4>Vendor Details</h4>
+        <div>
+            <label class="required">GSTIN</label> <input type="text" id="gstin" name="gstin">
+            <label class="required">GST Status </label> <input type="text" id="cgst" name="cgst"><br><br>
+            <label class="required">legal Name </label> <input type="text" id="sgst" name="sgst">
+            <label class="required">PAN NO.</label> <input type="text" id="igst" name="igst"><br><br>
+            <label class="required">Address </label> <input type="text" id="hsncode" name="tds">
+            <label class="required">CIN</label> <input type="text" placeholder="CIN should be atleast 15 digits long." id="cin" name="cin"><button>Validate CIN</button>   <br><br>
+            
+            <label class="required">Branch </label>
+            <select name="branch" id="branch">
+                <option value="Select">Select Branch</option>
+                <option value="abc">ABC</option>
+                <option value="xyz">XYZ</option></select>
+            <label class="required">Vendor Type</label> 
+                <select name="Vtype" id="Vtype">
+                <option value="Select">Select Vendor Type</option>
+                <option value="abc">ABC</option>
+                <option value="xyz">XYZ</option></select><br><br>
+
+            <label>V code</label> <input type="text" placeholder="V Code must be Alpanumeric" id="vcode" name="vcode">  
+        </div> 
+        <h4>User Details</h4> 
+        <div>
+            <label class="required">User Name </label> <input type="text" id="user" name="user">
+            <label class="required">Contact Person </label> <input type="text" id="contact" name="contact"><br><br>
+            <label class="required">Email ID </label> <input type="text" id="email" name="email">
+            <label class="required">Mobile Number </label> <input type="text" id="mob" name="mob">
+        </div> 
+        <h4>Bank Details</h4> 
+        <div>
+            <label class="required">Account Number </label> <input type="text" id="account" name="account">
+            <label class="required">IFSC Code </label> <input type="text" id="ifsc" name="ifsc"><br><br>
+            <label class="required">Bank Name </label> <input type="text" id="bankname" name="bankname">
+            <label class="required">Bank Branch </label> <input type="text" id="branch" name="branch"><br><br>
+            <label class="required">Name </label> <input type="text" id="name" name="name">
+            <label class="required">Mobile Number </label> <input type="text" id="mob2" name="mob2">   <br><br>
+        </div> 
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+    
+</body>
+</html>
